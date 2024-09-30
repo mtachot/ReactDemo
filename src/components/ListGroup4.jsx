@@ -1,16 +1,17 @@
-const maListe = ["Element 1", "Element 2", "Element 3", "Element 4"]
+const maListe = []
 
-function ListGroup3(){
+function ListGroup4(){
     return(
         <>
-            <h1>Exemple list group 3</h1>
+            <h1>Exemple list group 4</h1>
+            { maListe.length==0 ? <p>Aucun élément trouvé</p> :
             <ul className="list-group">
             {
                 maListe.map((item, index) => <li key={index} className="list-group-item">{item}</li>)
             }
-            </ul>
+            </ul>}
         </>
     );
 }
 
-export default ListGroup3;
+export default ListGroup4;
