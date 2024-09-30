@@ -4,6 +4,7 @@ import ListGroup2 from "./ListGroup2"
 import ListGroup3 from "./ListGroup3"
 import ListGroup4 from "./ListGroup4"
 import ListGroup5 from "./ListGroup5"
+import ListGroup6 from "./ListGroup6"
 
 function App() {
 
@@ -11,6 +12,8 @@ function App() {
     <>
       <h1>Hello world !!</h1>
       <Exemple />
+      <ListGroup6 />
+      <br/><br/>
       <ListGroup5 />
       <br/><br/>
       <ListGroup4 />
