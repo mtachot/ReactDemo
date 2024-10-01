@@ -14,8 +14,10 @@ function AppExercice6 (){
     }
 
     const handlePrevious = () => {
-        const previousId = myObj.id - 1 > 0 ? myObj.id - 1 : 1;
-        setMyObj({id:previousId});
+        if(myObj.id > 1){
+            const previousId = myObj.id - 1;
+            setMyObj({id:previousId});
+        }
     }
 
     const handleNext = () => {
