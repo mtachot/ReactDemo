@@ -2,12 +2,12 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './components/App.jsx'
 import 'bootstrap/dist/css/bootstrap.css'
-import App2 from './components/Exercice 4/App2.jsx'
-
+import AppExercice4 from './components/Exercice 4/AppExercice4.jsx'
+import AppExercice6 from './components/Exercice 6/AppExercice6.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App2 />
+    <AppExercice6 />
   </StrictMode>,
 )

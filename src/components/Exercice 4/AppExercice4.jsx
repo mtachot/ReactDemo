@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import Ex4Counter from "./Ex4Counter"
 import Ex4Cart from "./Ex4Cart";
 
-function App2() {
+function AppExercice4() {
   const [cartItems, setCartItems] = useState([]);
   const nbOfItems = cartItems.length;
 
@@ -17,4 +17,4 @@ function App2() {
   )
 }
 
-export default App2
+export default AppExercice4
