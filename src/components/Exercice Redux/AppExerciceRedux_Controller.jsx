@@ -16,7 +16,7 @@ function AppExerciceRedux_Controller(){
             </div>
             <div>
                 <input type="number" value={incrementValue} onChange={e => setIncrementValue(e.target.value)}/>
-                <button onClick={() => dispatch(incrementByAmount(Number(incrementValue)))}>Increment by amount</button>
+                <button onClick={() => dispatch(incrementByAmount(Number(incrementValue) || 0))}>Increment by amount</button>
             </div>
         </>
     )
